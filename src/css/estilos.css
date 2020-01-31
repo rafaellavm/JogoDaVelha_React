@@ -7,7 +7,7 @@ body {
     padding-left: 30px;
   }
   
-  .board-row:after {
+  .tabuleiro-row:after {
     clear: both;
     content: "";
     display: table;
@@ -17,7 +17,7 @@ body {
     margin-bottom: 10px;
   }
   
-  .square {
+  .quadrado {
     background: #fff;
     border: 1px solid #999;
     float: left;
@@ -32,20 +32,20 @@ body {
     width: 34px;
   }
   
-  .square:focus {
+  .quadrado:focus {
     outline: none;
   }
   
-  .kbd-navigation .square:focus {
+  .kbd-navigation .quadrado:focus {
     background: #ddd;
   }
   
-  .game {
+  .jogo {
     display: flex;
     flex-direction: row;
   }
   
-  .game-info {
+  .jogo-info {
     margin-left: 20px;
   }
   
